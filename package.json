@@ -14,7 +14,8 @@
     "prepare": "husky install",
     "version": "lerna version --exact --force-publish --no-push --no-git-tag-version",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
-    "clean": "lerna clean --yes"
+    "clean": "lerna clean --yes",
+    "build:doc": "npm run build && npm run doc"
   },
   "repository": {
     "type": "git",
