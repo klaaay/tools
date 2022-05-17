@@ -22,6 +22,14 @@ export default function Layout() {
             <NavLink to="/image-to-base64"> Image to Base64 </NavLink>
             <div></div>
             <a
+              href="https://tool.jisuapi.com/base642pic.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>Base64 to Image</span>
+              <ShareIcon height={18} />
+            </a>
+            <a
               href="https://uiwjs.github.io/npm-unpkg/"
               target="_blank"
               rel="noreferrer"
