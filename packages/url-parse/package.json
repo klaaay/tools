@@ -1,0 +1,24 @@
+{
+  "name": "@wcj/tools-react-url-parse",
+  "version": "1.0.0",
+  "main": "./cjs/index.js",
+  "module": "./esm/index.js",
+  "scripts": {
+    "build": "tsbb build",
+    "watch": "tsbb watch"
+  },
+  "keywords": [],
+  "files": [
+    "cjs",
+    "esm",
+    "src"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@wcj/tools-react-components": "^1.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.14.0",
+    "react-dom": ">=16.14.0"
+  }
+}
