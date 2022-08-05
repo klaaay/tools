@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ReactJson from "react-json-view";
 import { Wrapper, Textarea, StyledLayout } from "@wcj/tools-react-components";
 
 export default function URLEncode() {
@@ -27,6 +28,7 @@ export default function URLEncode() {
         search,
         username,
       } = urlObj;
+      setIsLegal(true);
       serUrlInfo({
         searchParams: queryObj,
         search,
@@ -57,7 +59,11 @@ export default function URLEncode() {
         />
       </StyledLayout>
       <StyledLayout title="Encoded URL">
-        <pre>{isLegal ? JSON.stringify(urlInfo, null, 2) : "Invalid URL"}</pre>
+        {isLegal ? (
+          <ReactJson displayDataTypes={false} name={false} src={urlInfo} />
+        ) : (
+          <pre>Invalid URL</pre>
+        )}
       </StyledLayout>
     </Wrapper>
   );

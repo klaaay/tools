@@ -15,7 +15,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@wcj/tools-react-components": "^1.0.0"
+    "@wcj/tools-react-components": "^1.0.0",
+    "react-json-view": "^1.21.3"
   },
   "peerDependencies": {
     "react": ">=16.14.0",
