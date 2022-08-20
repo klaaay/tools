@@ -71,14 +71,6 @@ export default function Layout() {
               <ShareIcon height={18} />
             </a>
             <a
-              href="https://uiwjs.github.io/react-run-web/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span>Run Web</span>
-              <ShareIcon height={18} />
-            </a>
-            <a
               href="https://jaywcjlove.github.io/logo/"
               target="_blank"
               rel="noreferrer"
